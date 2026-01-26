@@ -6,10 +6,16 @@
 }
 
 body{
+    background-color: #f5f5f5;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cv{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 4fr 1fr;
-
+    grid-template-columns: 30% 70%;
+    max-width: 1160px;
 }
 
 nav ul{
@@ -17,14 +23,21 @@ nav ul{
     grid-template-columns: 1fr 1fr;
     list-style: none;
     gap: 10px;
-
-    font-family: "Raleway", sans-serif;
+    color: #ffffff;
 }
 
 
 
 h1, h2, h3, h4, h5{
     font-family: "Lato";
+    color: #17abb3;
+}
+
+header{
+    background-color: #17abb3;
+}
+header h1, header h2{
+    color: #ffffff;
 }
 
 
