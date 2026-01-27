@@ -18,6 +18,26 @@ body{
     max-width: 1160px;
 }
 
+.photo{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+}
+
+.left-side{
+    background-color: #e3e3e3;
+    padding-top: 30px;    
+}
+
+.right-side{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
 nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,13 +48,20 @@ nav ul{
 
 
 
-h1, h2, h3, h4, h5{
+h1, h2, h3{
     font-family: "Lato";
     color: #17abb3;
 }
 
+h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
 header{
     background-color: #17abb3;
+    padding: 0px 1160px;
 }
 header h1, header h2{
     color: #ffffff;
@@ -47,6 +74,7 @@ p{
 
 footer{
     background-color: #17abb3;
+    font-style: italic;
     padding: 30px 1160px;
     color: #ffffff;
 }
