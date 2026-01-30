@@ -25,7 +25,10 @@ body{
 header{
     background-color: #17abb3;
     font-family: "Lato";
+    text-align: center;
     color: #ffffff;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
 nav ul{
@@ -39,10 +42,10 @@ nav ul{
 .photo{
     width: 140px;
     height: 140px;
+    border-radius: 50%;
     position: absolute;
     top: 20px;
     left: 710px;
-    border-radius: 50%;
     border: 5px solid #ffffff;
 }
 
