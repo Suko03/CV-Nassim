@@ -81,7 +81,7 @@ h3{
     font-size: 22px;
 }
 
-p{
+p, li{
     font-family: "Raleway", sans-serif;
 }
 .skill p{
@@ -93,6 +93,23 @@ p{
     margin-bottom: 15px;
     font-weight: 600;
     display: grid;
+}
+.quality ul{
+    list-style: square;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: grid;
+    gap: 8px;
+}
+.interest ul{
+    list-style: square;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: grid;
+    gap: 8px;
+}
+.interest li, .quality li{
+    color: #17abb3;
 }
 
 footer{
