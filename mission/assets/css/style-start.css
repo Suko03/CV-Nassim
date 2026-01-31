@@ -64,11 +64,11 @@ nav ul{
 
 .left-side{
     background-color: #e3e3e3;
-    padding: 50px;    
+    padding: 25px 50px;    
 }
 
 .right-side{
-    padding: 50px;
+    padding: 25px 50px;
 }
 
 h3{
@@ -76,6 +76,7 @@ h3{
     color: #17abb3;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 10px;
+    padding-top: 30px;
     margin-bottom: 20px;
     font-size: 22px;
 }
@@ -84,6 +85,11 @@ p{
     font-family: "Raleway", sans-serif;
 }
 .skill p{
+    margin-bottom: 15px;
+    font-weight: 600;
+    display: grid;
+}
+.lang p{
     margin-bottom: 15px;
     font-weight: 600;
     display: grid;
