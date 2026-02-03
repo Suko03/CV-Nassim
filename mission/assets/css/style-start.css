@@ -127,7 +127,6 @@ p, li, em{
 .interest li, .quality li{
     color: inherit;
 }
-
 /* Utilisation de ::marker pour colorer seulement les carré de la liste */
 .interest li::marker, .quality li::marker{
     color: #17abb3;
@@ -140,3 +139,30 @@ footer{
     padding: 20px;
     color: #ffffff;
 }
+
+.formation{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    
+}
+.left-formation{
+    justify-items: start;
+
+}
+
+.left-formation p{
+    font-weight: 600;
+}
+
+.right-formation{
+    justify-items: end;
+    color: #17abb3;
+}
+.right-formation p{
+    margin-bottom: 30px;}
+.formation em{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
