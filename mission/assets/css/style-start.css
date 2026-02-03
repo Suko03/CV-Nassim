@@ -95,10 +95,21 @@ p, li, em{
     display: grid;
 }
 .lang p{
-    margin-bottom: 15px;
-    font-weight: 600;
-    display: grid;
+    margin-bottom: 10px;
 }
+
+.language{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.left{
+    justify-items: start;
+    font-weight: 600;
+}
+.right{
+    justify-items: end;
+}
+
 .quality ul{
     list-style: square;
     margin-left: 20px;
@@ -116,6 +127,8 @@ p, li, em{
 .interest li, .quality li{
     color: inherit;
 }
+
+/* Utilisation de ::marker pour colorer seulement les carré de la liste */
 .interest li::marker, .quality li::marker{
     color: #17abb3;
 }
