@@ -74,6 +74,7 @@ nav ul{
 
 .right-side{
     padding: 25px 50px;
+    background-color: #ffffff;
 }
 
 h3{
@@ -155,6 +156,42 @@ footer{
 }
 
 .formation-right{
+  color: #17abb3;
+}
+
+.stage{
+  display: grid;
+  gap: 22px;
+}
+
+.stage-description{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.stage-title{
+  font-weight: 600;
+}
+
+.stage-right{
+  color: #17abb3;
+}
+
+.xp{
+  display: grid;
+  gap: 22px;
+}
+
+.xp-description{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.xp-title{
+  font-weight: 600;
+}
+
+.xp-right{
   color: #17abb3;
 }
 
