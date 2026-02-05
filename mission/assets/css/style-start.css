@@ -140,29 +140,22 @@ footer{
     color: #ffffff;
 }
 
-.formation{
-    display: grid;
-    grid-template-columns: 1fr auto;
-    
-}
-.left-formation{
-    justify-items: start;
-
+.formations{
+  display: grid;
+  gap: 22px;
 }
 
-.left-formation p{
-    font-weight: 600;
+.formation-description{
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
-.right-formation{
-    justify-items: end;
-    color: #17abb3;
+.formation-title{
+  font-weight: 600;
 }
-.right-formation p{
-    margin-bottom: 30px;}
-.formation em{
-    font-weight: 600;
-    margin-bottom: 5px;
+
+.formation-right{
+  color: #17abb3;
 }
 
 
