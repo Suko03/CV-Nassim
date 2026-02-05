@@ -10,6 +10,10 @@
   margin: 0;
   padding: 0;
 }
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 
 body{
     background-color: #f5f5f5;
@@ -40,11 +44,12 @@ nav ul{
     display: grid;
     justify-content: center;
     justify-items: start;
-    grid-template-columns: 140px 100px;
+    grid-template-columns: 245px 100px;
     list-style: none;
     gap: 10px;
+    column-gap: 50px;
     color: #ffffff;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .photo{
@@ -69,6 +74,7 @@ nav ul{
 
 .right-side{
     padding: 25px 50px;
+    background-color: #ffffff;
 }
 
 h3{
@@ -81,7 +87,7 @@ h3{
     font-size: 22px;
 }
 
-p, li{
+p, li, em{
     font-family: "Raleway", sans-serif;
 }
 .skill p{
@@ -90,10 +96,21 @@ p, li{
     display: grid;
 }
 .lang p{
-    margin-bottom: 15px;
-    font-weight: 600;
-    display: grid;
+    margin-bottom: 10px;
 }
+
+.language{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.left{
+    justify-items: start;
+    font-weight: 600;
+}
+.right{
+    justify-items: end;
+}
+
 .quality ul{
     list-style: square;
     margin-left: 20px;
@@ -109,6 +126,10 @@ p, li{
     gap: 8px;
 }
 .interest li, .quality li{
+    color: inherit;
+}
+/* Utilisation de ::marker pour colorer seulement les carré de la liste */
+.interest li::marker, .quality li::marker{
     color: #17abb3;
 }
 
@@ -119,3 +140,59 @@ footer{
     padding: 20px;
     color: #ffffff;
 }
+
+.formations{
+  display: grid;
+  gap: 22px;
+}
+
+.formation-description{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.formation-title{
+  font-weight: 600;
+}
+
+.formation-right{
+  color: #17abb3;
+}
+
+.stage{
+  display: grid;
+  gap: 22px;
+}
+
+.stage-description{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.stage-title{
+  font-weight: 600;
+}
+
+.stage-right{
+  color: #17abb3;
+}
+
+.xp{
+  display: grid;
+  gap: 22px;
+}
+
+.xp-description{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.xp-title{
+  font-weight: 600;
+}
+
+.xp-right{
+  color: #17abb3;
+}
+
+
