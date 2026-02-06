@@ -62,6 +62,17 @@ nav ul{
     border: 5px solid #ffffff;
 }
 
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 19px;
+    height: 19px;
+    margin-right: 5px;
+}
+
 .detail{
     display: grid;
     grid-template-columns: 30% 70%;
