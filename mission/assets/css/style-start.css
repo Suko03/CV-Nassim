@@ -101,11 +101,35 @@ h3{
 p, li, em{
     font-family: "Raleway", sans-serif;
 }
-.skill p{
-    margin-bottom: 15px;
-    font-weight: 600;
-    display: grid;
+
+.skills{
+  list-style: none;
+  padding: 0;
+  display: grid;
 }
+
+.skill-row{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.skill-name{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.skill-stars{
+  display: flex;
+  gap: 5px;
+}
+
+.skill-stars img{
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
 .lang p{
     margin-bottom: 10px;
 }
