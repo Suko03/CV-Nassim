@@ -239,3 +239,14 @@ footer{
   gap: 20px;
   margin-bottom: 5px;
 }
+
+.contact-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-link:hover{
+  text-decoration: underline;
+}
