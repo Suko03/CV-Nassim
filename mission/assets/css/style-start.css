@@ -186,6 +186,8 @@ footer{
 .formation-description{
   display: grid;
   grid-template-columns: 1fr auto;
+  border-left: 4px solid transparent;
+  padding: 10px 12px;
 }
 
 .formation-title{
@@ -204,6 +206,8 @@ footer{
 .stage-description{
   display: grid;
   grid-template-columns: 1fr auto;
+  border-left: 4px solid transparent;
+  padding: 10px 12px;
 }
 
 .stage-title{
@@ -223,6 +227,8 @@ footer{
 .xp-description{
   display: grid;
   grid-template-columns: 1fr auto;
+  border-left: 4px solid transparent;
+  padding: 10px 12px;
 }
 
 .xp-title{
@@ -231,6 +237,11 @@ footer{
 
 .xp-right{
   color: #17abb3;
+}
+
+.formation-description:hover, .stage-description:hover, .xp-description:hover{
+  background-color: #e3e3e3;
+  border-left-color: #17abb3;
 }
 
 .social{
