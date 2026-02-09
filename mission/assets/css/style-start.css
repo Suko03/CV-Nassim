@@ -56,8 +56,16 @@ nav ul{
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-left: 50px;
+  margin-right: 50px;
   border: 5px solid #ffffff;
+}
+
+.photo-link{
+  display: inline-block;
+}
+
+.photo-link:hover .photo{
+  cursor: zoom-in;
 }
 
 nav ul li {
@@ -102,6 +110,11 @@ h3{
 
 p, li, em{
   font-family: "Raleway", sans-serif;
+}
+
+.profile-text{
+  text-indent: 30px;
+  text-align: justify;
 }
 
 .skills{
