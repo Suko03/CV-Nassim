@@ -21,9 +21,11 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1160px;
+}
+
+.cv{
+  width: 1160px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 header{
@@ -78,9 +80,14 @@ nav ul li {
   height: 19px;
   margin-right: 5px;
 }
+
 .icon-footer{
   width: 30px;
   height: 30px;
+}
+
+.icon-footer:hover{
+  opacity: 0.7;
 }
 
 .detail{
@@ -168,6 +175,7 @@ p, li, em{
     display: grid;
     gap: 8px;
 }
+
 .interest ul{
   list-style: square;
   margin-left: 20px;
@@ -199,8 +207,8 @@ footer{
 .formation-description{
   display: grid;
   grid-template-columns: 1fr auto;
-  border-left: 4px solid transparent;
-  padding: 10px 12px;
+  border-left: 5px solid transparent;
+  padding: 10px 10px;
 }
 
 .formation-title{
@@ -219,8 +227,8 @@ footer{
 .stage-description{
   display: grid;
   grid-template-columns: 1fr auto;
-  border-left: 4px solid transparent;
-  padding: 10px 12px;
+  border-left: 5px solid transparent;
+  padding: 10px 10px;
 }
 
 .stage-title{
@@ -240,8 +248,8 @@ footer{
 .xp-description{
   display: grid;
   grid-template-columns: 1fr auto;
-  border-left: 4px solid transparent;
-  padding: 10px 12px;
+  border-left: 5px solid transparent;
+  padding: 10px 10px;
 }
 
 .xp-title{
